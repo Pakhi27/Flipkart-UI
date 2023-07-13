@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="css/responsive.style.css">
+
+
+</head>
+<body>
+<!--header design-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:rgb(0, 149, 255);padding-left:150px;padding-right:20px;display:flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color:white;font-family:cursive" >Flipkart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <div class="dropdown">
+              <li><button class="dropbtn" style="color:rgb(0, 89, 255);margin-right:30px">Login</button><li>
+                <div class="dropdown-content">
+                     <a href="https://www.flipkart.com/account/login?ret=%2Faccount%2F%3Frd%3D0%26link%3Dhome_account">My profile</a>
+                     <a href="https://www.flipkart.com/plus">flipkart plus zone</a>
+                     <a href="https://www.flipkart.com/account/login?ret=%2Faccount%2Forders%3Flink%3Dhome_orders">orders</a>
+                     <a href="https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist">wishlist</a>
+                     <a href="https://www.flipkart.com/account/login?ret=%2Faccount%2Frewards%3Flink%3Dhome_rewards">rewards</a>
+                     <a href="https://www.flipkart.com/the-gift-card-store?link=home_giftcard">giftcards</a>
+                </div>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect" text="_blank" style="color:white;margin-right:30px;">Become a seller</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;margin-right:30px">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.flipkart.com/communication-preferences/push?t=all">Notification Prefrences</a></li>
+                  <li><a class="dropdown-item" href="https://www.flipkart.com/helpcentre">24*7 Customer care</a></li>
+                  <li><a class="dropdown-item" href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps">Download app</a></li>
+                  <li><a class="dropdown-item" href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header">Advertise</a></li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART" style="color:white;margin-right:30px;">Cart</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav> 
+      <div class="container" style="display:flex;flex:1;max-width:100%;height:auto;justify-content:space-between">
+        <div class="image-1">
+      <img src="images/grocery.webp" width="100px">
+      <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_f36f1445-8e3f-47d1-a172-e5ec36422727_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+      <h6>Grocery</h6>
+       </a>
+      </div>
+      <div class="image-2">
+        <img src="images/mobile.webp" width="100px">
+        <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_5737ffb8-e5f3-44c5-9272-93528d5c8852_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J" target="_blank">
+          <h6>Mobile</h6>
+        </a>
+      </div>
+      
+      <div class="a" style="text-align:inline">
+    <div class="image-3">
+      <img src="images/fashion.webp" width="100px">
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Fashion</button>
+      <div class="dropdown-content">
+        <a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_bd8aadec-3038-44fa-a1aa-80c14bb3bbf9_1_372UD5BXDFYS_MC.6XNZG1FYFBZT&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear_6XNZG1FYFBZT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=6XNZG1FYFBZT">Men's Top wear</a>
+        <a href="https://www.flipkart.com/clothing-and-accessories/bottomwear/pr?sid=clo,vua&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_d82d4391-70d3-43b3-a291-9992d6c3ea36_1_372UD5BXDFYS_MC.8HARX8UX7IX5&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BBottom%2BWear_8HARX8UX7IX5&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=8HARX8UX7IX5">Men's Bottom wear</a>
+        <a href="https://www.flipkart.com/clothing-and-accessories/~cs-aerg0b0afc/pr?sid=clo&collection-tab-name=KK%2CSets%2CDM%2CSarees&fm=neo%2Fmerchandising&iid=M_33cb44b0-3448-43fc-a50c-23d3f5510340_1_372UD5BXDFYS_MC.HQXTE43PO8HC&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BEthnic_HQXTE43PO8HC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&cid=HQXTE43PO8HC">Women Ethnic</a>
+        <a href="https://www.flipkart.com/clothing-and-accessories/~cs-ahd69o77qf/pr?sid=clo&collection-tab-name=Western%20Wear&fm=neo%2Fmerchandising&iid=M_c79703a7-78d5-42ed-a885-3703539d4d04_1_372UD5BXDFYS_MC.K4M2S29QJWT9&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern_K4M2S29QJWT9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=K4M2S29QJWT9">Women western</a>
+        <a href="https://www.flipkart.com/mens-footwear/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Footwear&fm=neo%2Fmerchandising&iid=M_4f2f2f8c-d62a-461a-8f43-b50665100dd8_1_372UD5BXDFYS_MC.PR9Y9GHWCY6G&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2BFootwear_PR9Y9GHWCY6G&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=PR9Y9GHWCY6G">Men footwear</a>
+        <a href="https://www.flipkart.com/womens-footwear/pr?sid=osp,iko&fm=neo%2Fmerchandising&iid=M_eeb8f418-a1ef-4ded-ae35-a68f147224df_1_372UD5BXDFYS_MC.DN868DQ1FHU3&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BFootwear_DN868DQ1FHU3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L1_view-all&cid=DN868DQ1FHU3">Women footwear</a>
+        <a href="https://www.flipkart.com/watches/wrist-watches/pr?sid=r18,f13&p[]=facets.ideal_for%255B%255D%3DCouple&p[]=facets.ideal_for%255B%255D%3DWomen&p[]=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p[]=facets.ideal_for%255B%255D%3DMen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_7f6d5c61-b326-40db-b438-1e651ab4062d_1_372UD5BXDFYS_MC.CI9JK83AKS5H&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Fashion~Watches%2Band%2BAccessories_CI9JK83AKS5H&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&cid=CI9JK83AKS5H">Watches and accessories</a>
+        <a href="https://www.flipkart.com/all/~cs-xt03i9k5xc/pr?sid=all&collection-tab-name=Bags+and+Luggage&fm=neo%2Fmerchandising&iid=M_9edceb41-d96e-4d7f-bbc7-d79903880738_1_372UD5BXDFYS_MC.X8KIDQHRP5Q0&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Fashion~Bags%252C%2BSuitcases%2B%2526%2BLuggage_X8KIDQHRP5Q0&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L1_view-all&cid=X8KIDQHRP5Q0">Bags,suitcase and luggages</a>
+        <a href="https://www.flipkart.com/clothing-and-accessories/pr?sid=clo&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys%2B%2526%2BBaby%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BGirls&otracker=nmenu_sub_Baby%20%26%20Kids_0_Kids%27%20Clothing&fm=neo%2Fmerchandising&iid=M_5c5f7423-f44c-48e1-94f1-8856c0700c6f_1_372UD5BXDFYS_MC.0QYFBACHTZGW&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Fashion~Kids_0QYFBACHTZGW&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L1_view-all&cid=0QYFBACHTZGW">Kids</a>
+        <a href="https://www.flipkart.com/fashion-trendy-store?fm=neo%2Fmerchandising&iid=M_f73d1131-66b6-43dd-a539-76efabc86e6c_1_372UD5BXDFYS_MC.GXQPTNACQ6S3&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Fashion~Essentials_GXQPTNACQ6S3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L1_view-all&cid=GXQPTNACQ6S3">Essentials</a>
+        <a href="https://www.flipkart.com/fashion-trendy-store?fm=neo%2Fmerchandising&iid=M_b93d3231-988d-4d17-ba21-e5e472d64483_1_372UD5BXDFYS_MC.BUW2OH9BTFCI&otracker=hp_rich_navigation_11_1.navigationCard.RICH_NAVIGATION_Fashion~Winter_BUW2OH9BTFCI&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_11_L1_view-all&cid=BUW2OH9BTFCI">Winter</a>
+    </div>
+  </div>
+</div>
+<div class="d" style="text-align:inline">
+    <div class="image-4">
+      <img src="images/electronics.webp" width="100px">
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Electronics</button>
+      <div class="dropdown-content">
+      <a href="https://www.flipkart.com/electronics-best-offers-store?fm=neo%2Fmerchandising&iid=M_0a169a73-00b3-404e-85d1-be75eeefefc3_1_372UD5BXDFYS_MC.KV8NA7Z3WYHI&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio_KV8NA7Z3WYHI&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=KV8NA7Z3WYHI">Audio</a>
+      <a href="https://www.flipkart.com/elec-b2b-store?fm=neo%2Fmerchandising&iid=M_185ba18a-5fd6-44a7-af5c-40e3c20edb62_1_372UD5BXDFYS_MC.1B9DW42USMK1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Electronics~Electronics%2BGST%2BStore_1B9DW42USMK1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=1B9DW42USMK1">Electronics GST store</a>
+      <a href="https://www.flipkart.com/camera-clp-store?otracker=nmenu_sub_Electronics_0_Camera&fm=neo%2Fmerchandising&iid=M_ac649a01-a728-40cd-8921-c60e282f9840_1_372UD5BXDFYS_MC.JR4C1KAN1IAQ&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Electronics~Cameras%2B%2526%2BAccessories_JR4C1KAN1IAQ&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&cid=JR4C1KAN1IAQ">Camera & Accessories</a>
+      <a href="https://www.flipkart.com/computers/pr?sid=6bo&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_7bf0238d-b5fb-433a-b1f8-d1088abb27ca_1_372UD5BXDFYS_MC.J4RSDBUPDZ0A&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Electronics~Computer%2BPeripherals_J4RSDBUPDZ0A&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=J4RSDBUPDZ0A">Computer peripherals</a>
+      <a href="https://www.flipkart.com/gaming/pr?sid=4rr&fm=neo%2Fmerchandising&iid=M_6ea9f1e9-c638-4d96-ad89-5ade7aa07f76_1_372UD5BXDFYS_MC.PK7I48M403OR&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Electronics~Gaming_PK7I48M403OR&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=PK7I48M403OR">Gaming</a>
+      <a href="https://www.flipkart.com/health-personal-care-appliances/pr?sid=zlw&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_b8826501-59ba-4150-b415-1f561303309e_1_372UD5BXDFYS_MC.HXW0OE9J0RUT&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Electronics~Health%2B%2526%2BPersonal%2BCare_HXW0OE9J0RUT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L1_view-all&cid=HXW0OE9J0RUT">Health & personal care</a>
+      <a href="https://www.flipkart.com/offers-list/itaccessories?screen=dynamic&pk=themeViews%3DITAcce%3Aapp%2CITAcce%3Adesk~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&fm=neo%2Fmerchandising&iid=M_6aa12615-4c45-47ab-84f0-5931404fdf78_1_372UD5BXDFYS_MC.B0RGQT4LXCY4&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Electronics~Laptop%2BAccessories_B0RGQT4LXCY4&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&cid=B0RGQT4LXCY4">Laptop Accessories</a>
+      <a href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_3d5a19bc-ba4a-4173-8060-0c145ea493eb_1_372UD5BXDFYS_MC.34WHNYFH5V2Y&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Electronics~Laptop%2Band%2BDesktop_34WHNYFH5V2Y&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L1_view-all&cid=34WHNYFH5V2Y">Laptop & desktop</a>
+      <a href="https://www.flipkart.com/electronics-best-offers-store?fm=neo%2Fmerchandising&iid=M_d7931d7e-bedf-46fe-80d6-4b0746dde6e5_1_372UD5BXDFYS_MC.IT4NQRJLYVLG&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Electronics~MobileAccessory_IT4NQRJLYVLG&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L1_view-all&cid=IT4NQRJLYVLG">Mobile Accessories</a>
+      <a href="https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy,4mr,fu6&otracker=categorytree&otracker=nmenu_sub_Electronics_0_Power%20Banks&fm=neo%2Fmerchandising&iid=M_19c28f58-7cfd-4d7b-a4cb-f5ec274480dc_1_372UD5BXDFYS_MC.SUDNEM7MT757&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Electronics~Powerbank_SUDNEM7MT757&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L1_view-all&cid=SUDNEM7MT757">Power bank</a>
+      <a href="https://www.flipkart.com/smart-home-automation-store?otracker=nmenu_sub_Electronics_0_Smart%20Home%20Automation&fm=neo%2Fmerchandising&iid=M_e3a41e89-f464-415e-a532-2d43b5add7b9_1_372UD5BXDFYS_MC.YOI1FZ6MZHBP&otracker=hp_rich_navigation_11_1.navigationCard.RICH_NAVIGATION_Electronics~Smart%2BHome%2Bautomation_YOI1FZ6MZHBP&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_11_L1_view-all&cid=YOI1FZ6MZHBP">Smart home automation</a>
+      <a href="https://www.flipkart.com/smart-wearables-store?otracker=nmenu_sub_Electronics_0_Smart%20Wearable%20Tech&fm=neo%2Fmerchandising&iid=M_8d325c6a-9950-479a-9f7d-5cf8300396ca_1_372UD5BXDFYS_MC.84HOYIMQHQ1K&otracker=hp_rich_navigation_12_1.navigationCard.RICH_NAVIGATION_Electronics~Smart%2BWearables_84HOYIMQHQ1K&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_12_L1_view-all&cid=84HOYIMQHQ1K">Smart wearables</a>
+      <a href="https://www.flipkart.com/computers/storage/pr?sid=6bo,jdy&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_7c9c52b0-ce41-4fd5-8392-0baa6bb63787_1_372UD5BXDFYS_MC.KQVNOZIIVHH0&otracker=hp_rich_navigation_13_1.navigationCard.RICH_NAVIGATION_Electronics~Storage_KQVNOZIIVHH0&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_13_L1_view-all&cid=KQVNOZIIVHH0">Storage</a>
+      <a href="https://www.flipkart.com/tablets-store?otracker=nmenu_sub_Electronics_0_Tablets&fm=neo%2Fmerchandising&iid=M_2ed8ffb1-b313-4961-b388-078bd1dcf0b2_1_372UD5BXDFYS_MC.D3MOUAM73P5D&otracker=hp_rich_navigation_14_1.navigationCard.RICH_NAVIGATION_Electronics~Tablets_D3MOUAM73P5D&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_14_L1_view-all&cid=D3MOUAM73P5D"> Tablets</a>
+    </div>
+      </div>
+    </div>
+    <div class="e" style="text-align:inline">
+      <div class="image-5">
+      <img src="images/home.webp" width="100px">
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Home & furniture</button>
+      <div class="dropdown-content">
+        <a href="https://www.flipkart.com/india-ka-furniture-studio-store?fm=neo%2Fmerchandising&iid=M_5319cdae-4562-4b01-819b-9cee5c3b7d4e_1_372UD5BXDFYS_MC.Q6I8NGK1VUG9&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BFurnishings_Q6I8NGK1VUG9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=Q6I8NGK1VUG9">Home furnishing</a>
+        <a href="https://www.flipkart.com/furniture-india-ka-furniture-store?fm=neo%2Fmerchandising&iid=M_2d541a0f-f99e-4d5d-9092-5b00074a1c4b_1_372UD5BXDFYS_MC.6O12T1H9D8V3&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Furniture%2BStudio_6O12T1H9D8V3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=6O12T1H9D8V3">Furniture studio</a>
+        <a href="https://www.flipkart.com/furniture/~cs-c9cykc6i2p/pr?sid=wwe&collection-tab-name=Livingroom%20Furniture&fm=neo%2Fmerchandising&iid=M_82bd63ed-f5b6-4dfd-a446-5f533937d6d5_1_372UD5BXDFYS_MC.4MQHUMDYWFBZ&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Living%2BRoom%2BFurniture_4MQHUMDYWFBZ&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&cid=4MQHUMDYWFBZ">Living room furniture</a>
+        <a href="https://www.flipkart.com/kitchen-cookware-serveware/pr?count=40&otracker=CLP_lhs&sid=upp&fm=neo%2Fmerchandising&iid=M_deeb5faf-03d4-4a82-a119-059cfe11723a_1_372UD5BXDFYS_MC.4EYWRCGS3WUT&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Kitchen%2B%2526%2BDining_4EYWRCGS3WUT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=4EYWRCGS3WUT">Kitchen & Dining</a>
+        <a href="https://www.flipkart.com/furniture/~cs-nzv6b7fuhy/pr?sid=wwe&collection-tab-name=Bedroom%20Furniture&fm=neo%2Fmerchandising&iid=M_ac651735-33c2-4c22-86e6-48d7f06025d2_1_372UD5BXDFYS_MC.8MDVJVQKUT46&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Bedroom%2BFurniture_8MDVJVQKUT46&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=8MDVJVQKUT46">Bedroom furniture</a>
+        <a href="https://www.flipkart.com/home-decor/pr?sid=arb&marketplace=FLIPKART&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor&fm=neo%2Fmerchandising&iid=M_81092d49-c324-43f3-bb39-348e58f6411c_1_372UD5BXDFYS_MC.YSSCYSKQOXI0&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BDecor_YSSCYSKQOXI0&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L1_view-all&cid=YSSCYSKQOXI0">Home Decor</a>
+        <a href="https://www.flipkart.com/home-improvement/pr?sid=h1m&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_5880b755-9fda-47a1-a184-aa87c75e7095_1_372UD5BXDFYS_MC.KGMXYTERF51N&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Tools%2B%2526%2BUtility_KGMXYTERF51N&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&cid=KGMXYTERF51N">Tools & utility</a>
+        <a href="https://www.flipkart.com/furniture-furworkfromhome-store?fm=neo%2Fmerchandising&iid=M_8c89f0ea-3c18-4bfb-8e1e-680181cc4ffc_1_372UD5BXDFYS_MC.MVJUGP1N5UO3&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Work%2BSpace%2BFurniture_MVJUGP1N5UO3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L1_view-all&cid=MVJUGP1N5UO3">Workspace furniture</a>
+        <a href="https://www.flipkart.com/home-lighting/utility-lighting/pr?sid=jhg%2Cyqn&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&fm=neo%2Fmerchandising&iid=M_bbb2a364-efac-4120-8c41-56d88aec4bad_1_372UD5BXDFYS_MC.JNE8OUHG4OM3&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Lightings%2B%2526%2BElectricals_JNE8OUHG4OM3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L1_view-all&cid=JNE8OUHG4OM3">Lightning & electricals</a>
+        <a href="https://www.flipkart.com/furniture/~cs-lq740w4jum/pr?sid=wwe&collection-tab-name=Space%20Saving%20Furniture&fm=neo%2Fmerchandising&iid=M_86a98892-1392-4653-ad6b-138b4fe5c43b_1_372UD5BXDFYS_MC.T0RM9WCCLGDM&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Space%2BSaving%2BFurniture_T0RM9WCCLGDM&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L1_view-all&cid=T0RM9WCCLGDM">space saving furniture</a>
+        <a href="https://www.flipkart.com/home-cleaning-bathroom-accessories/pr?sid=rja&p[]=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_b58c6d27-f2ad-467a-be10-b413c05b2283_1_372UD5BXDFYS_MC.1J1I06HAUJHX&otracker=hp_rich_navigation_11_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Cleaning%2B%2526%2BBath_1J1I06HAUJHX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_11_L1_view-all&cid=1J1I06HAUJHX"> cleaning & bath</a>
+        <a href="https://www.flipkart.com/furniture/~cs-dq817klbnq/pr?sid=wwe&collection-tab-name=Kids%20Furniture&fm=neo%2Fmerchandising&iid=M_936a20c0-b417-48d8-8779-83736999f4f9_1_372UD5BXDFYS_MC.SRK4UP86MC8U&otracker=hp_rich_navigation_12_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Kids%2BFurniture_SRK4UP86MC8U&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_12_L1_view-all&cid=SRK4UP86MC8U">kids furniture</a>
+        <a href="https://www.flipkart.com/home-improvement/lawn-and-gardening/pr?sid=h1m,um7&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_64b19d3c-49b6-45b4-b035-6a7bf805e2a1_1_372UD5BXDFYS_MC.HPMYFO1CE9S5&otracker=hp_rich_navigation_13_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Pet%2B%2526%2BGardening_HPMYFO1CE9S5&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_13_L1_view-all&cid=HPMYFO1CE9S5">pet & gardening</a>
+      </div>
+    </div>
+    </div>
+      <div class="image-6">
+      <img src="images/appliances.webp" width="100px">
+      <a href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_19143d5d-ea5c-4e83-8536-2ea29e13fd64_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX" target="_blank">
+      <h6>Appliances</h6>
+    </a>
+    </div>
+    <div class="image-7">
+      <img src="images/travel.webp" width="100px">
+      <a href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_b5ffa459-76e5-44b1-b8cf-b2576bdabb33_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321">
+      <h6>Travel</h6>
+    </a>
+    </div>
+    <div class="image-8">
+      <img src="images/top-offer.webp" width="100px">
+      <a href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDOTD%3Aviewalldesktop~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&fm=neo%2Fmerchandising&iid=M_1e7d4226-1ec7-4193-b07c-5e426142e8bf_1_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L0_view-all&cid=G6ZC4RAJ9OHU">
+      <h6>Top-Offer</h6>
+    </a>
+      </div>
+      <!-- <div class="image-9"> -->
+        <div class="b" style="text-align:inline">
+          <div class="image-9">
+            <img src="images/beauty.webp" width="100px">
+          </div>
+        <div class="dropdown">
+          <button class="dropbtn">Beauty, Toys & More</button>
+          <div class="dropdown-content">
+            <a href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_229d2867-d6aa-4e2e-9fdf-a91ecd50e374_1_372UD5BXDFYS_MC.NJKL2WGZ9KLB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Beauty%2B%2526%2BPersonal%2BCare~View%2BAll_NJKL2WGZ9KLB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=NJKL2WGZ9KLB">Beauty & personal care</a>
+            <a href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&otracker=categorytree&sort=popularity&p%5B%5D=facets.brand%255B%255D%3DThe%2BMan%2BCompany&p%5B%5D=facets.brand%255B%255D%3DUstraa&p%5B%5D=facets.brand%255B%255D%3DUstraa%2BBy%2BHappily%2BUnmarried&p%5B%5D=facets.brand%255B%255D%3DMg5&p%5B%5D=facets.brand%255B%255D%3Dmg5&p%5B%5D=facets.brand%255B%255D%3DMG5&p%5B%5D=facets.brand%255B%255D%3DVip&p%5B%5D=facets.brand%255B%255D%3Dvip&p%5B%5D=facets.brand%255B%255D%3DVIP&p%5B%5D=facets.brand%255B%255D%3Dmuuchstac&p%5B%5D=facets.brand%255B%255D%3DMUUCHSTAC&p%5B%5D=facets.brand%255B%255D%3DMuuchstac&p%5B%5D=facets.brand%255B%255D%3Dqraa&p%5B%5D=facets.brand%255B%255D%3DQRAA&p%5B%5D=facets.brand%255B%255D%3DQraa&p%5B%5D=facets.brand%255B%255D%3Durbangabru&p%5B%5D=facets.brand%255B%255D%3DUrbangabru&p%5B%5D=facets.brand%255B%255D%3DUrbanGabru&p%5B%5D=facets.brand%255B%255D%3D7%2BDays&p%5B%5D=facets.brand%255B%255D%3DBeardo&p%5B%5D=facets.brand%255B%255D%3DPARK%2BAVENUE&p%5B%5D=facets.brand%255B%255D%3DPark%2BAvenue&p%5B%5D=facets.brand%255B%255D%3DGatsby&p%5B%5D=facets.brand%255B%255D%3DNivea%2Bmen&p%5B%5D=facets.brand%255B%255D%3DNivea%2BMen&p%5B%5D=facets.brand%255B%255D%3DNIVEA%2BMEN&p%5B%5D=facets.brand%255B%255D%3DSet%2BWet&p%5B%5D=facets.brand%255B%255D%3DSet%2BWet%2BStudio%2BX&p%5B%5D=facets.brand%255B%255D%3DAXE&p%5B%5D=facets.brand%255B%255D%3DAxe%2BBrand&p%5B%5D=facets.brand%255B%255D%3DGillette%2BFusion%2BProglide&p%5B%5D=facets.brand%255B%255D%3DGillette&p%5B%5D=facets.brand%255B%255D%3DHimalaya%2BMen&p%5B%5D=facets.brand%255B%255D%3DParachute%2BAdvansed%2BMen&p%5B%5D=facets.brand%255B%255D%3DFair%2B%2526%2BLovely%2BMen&p%5B%5D=facets.brand%255B%255D%3DFiama%2BMen&p%5B%5D=facets.brand%255B%255D%3DGARNIER%2BMEN&p%5B%5D=facets.brand%255B%255D%3DL%2527Oreal%2BParis%2BMen%2BExpert&p%5B%5D=facets.brand%255B%255D%3DPOND%2527S%2BMEN&p%5B%5D=facets.brand%255B%255D%3DBombay%2BShaving%2BCompany&p%5B%5D=facets.brand%255B%255D%3DBEARDHOOD&p%5B%5D=facets.brand%255B%255D%3Dbeardhood&p%5B%5D=facets.brand%255B%255D%3DBeardhood&p%5B%5D=facets.brand%255B%255D%3DAlcamy&p%5B%5D=facets.brand%255B%255D%3DTabac&p%5B%5D=facets.brand%255B%255D%3DFair%2Band%2BHandsome&p%5B%5D=facets.brand%255B%255D%3DBrylcreem&fm=neo%2Fmerchandising&iid=M_6c73d5d1-1f4b-4210-8359-b135c2d8fec6_1_372UD5BXDFYS_MC.3ZFRF8XHGBJF&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Men%2527s%2BGrooming_3ZFRF8XHGBJF&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=3ZFRF8XHGBJF">Mens grooming</a>
+            <a href="https://www.flipkart.com/food-products/pr?sid=eat&fm=neo%2Fmerchandising&iid=M_056da2aa-fa6a-4a4e-aaf8-5e680539de97_1_372UD5BXDFYS_MC.0YCIPQS6XGLX&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Food%2B%2526%2BDrinks_0YCIPQS6XGLX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&cid=0YCIPQS6XGLX">Food drinks</a>
+            <a href="https://www.flipkart.com/health-care/pr?sid=hlc&fm=neo%2Fmerchandising&iid=M_dffcfca4-a9f4-4639-9a6e-6f97c318f95b_1_372UD5BXDFYS_MC.8QM6WK62QFA6&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Nutrition%2B%2526%2BHealth%2BCare_8QM6WK62QFA6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=8QM6WK62QFA6">Nutrition & Health care</a>
+            <a href="https://www.flipkart.com/babycare19-store?fm=neo%2Fmerchandising&iid=M_f3485c71-210e-48f9-bf80-3821c3bede57_1_372UD5BXDFYS_MC.9AN2RP44B3PG&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Baby%2BCare_9AN2RP44B3PG&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=9AN2RP44B3PG">Baby care</a>
+            <a href="https://www.flipkart.com/toysclp-store?fm=neo%2Fmerchandising&iid=M_b2fcf11a-1993-4029-9836-e85c28bd3d34_1_372UD5BXDFYS_MC.A6A2ZZGHEZUT&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Toys%2B%2526%2BSchool%2BSupplies_A6A2ZZGHEZUT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L1_view-all&cid=A6A2ZZGHEZUT">Toys and school appliances</a>
+            <a href="https://www.flipkart.com/offers-list/sportsfitnessequipment?screen=dynamic&pk=themeViews%3DSF-SportFitness-OMU%3AApp%2CSF-SportFitness-OMU%3ADesk~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&fm=neo%2Fmerchandising&iid=M_1e501a19-6cbe-4b6d-bf46-1789f4136974_1_372UD5BXDFYS_MC.S6K5RFX2RYR8&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Sports%2B%2526%2BFitness_S6K5RFX2RYR8&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L1_view-all&cid=S6K5RFX2RYR8">Sports & fitness</a>
+            <a href="https://www.flipkart.com/books-store?fm=neo%2Fmerchandising&iid=M_9982ac8a-e8df-4917-b2ad-7923f5c06e41_1_372UD5BXDFYS_MC.WKV8I2UZ8OZC&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Books_WKV8I2UZ8OZC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L1_view-all&cid=WKV8I2UZ8OZC">Books</a>
+            <a href="https://www.flipkart.com/music/pr?sid=p2c&marketplace=FLIPKART&otracker=nmenu_sub_Sports%2C%20Books%20%26%20More_0_Music&fm=neo%2Fmerchandising&iid=M_f9403b0d-bf55-4291-a804-5bcf81866645_1_372UD5BXDFYS_MC.3FT2UWQJ5G1C&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Music_3FT2UWQJ5G1C&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L1_view-all&cid=3FT2UWQJ5G1C">Music</a>
+            <a href="https://www.flipkart.com/the-stationery-store?fm=neo%2Fmerchandising&iid=M_965e2823-1608-47dc-b3ec-8b826bbbf0dd_1_372UD5BXDFYS_MC.JNOTUFQEWK7F&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Stationery%2B%2526%2BOffice%2BSupplies_JNOTUFQEWK7F&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L1_view-all&cid=JNOTUFQEWK7F">Stationery</a>
+            <a href="https://www.flipkart.com/automotive-accessories/pr?sid=1mt&q=Auto&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_3af1fc74-c87b-455c-99e3-449a01b5de6b_1_372UD5BXDFYS_MC.XR726C7UEPTW&otracker=hp_rich_navigation_11_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Auto%2BAccessories_XR726C7UEPTW&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_11_L1_view-all&cid=XR726C7UEPTW">Auto accessories</a>
+            <a href="https://www.flipkart.com/industrial-scientific-supplies/pr?sid=gsx&q=safety+googles&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_be04590a-5273-49a0-88b6-759ad03d4090_1_372UD5BXDFYS_MC.ZXLX0DJAQ3TV&otracker=hp_rich_navigation_12_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Safety%2B%2526%2BHygiene%2BEssentials_ZXLX0DJAQ3TV&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_12_L1_view-all&cid=ZXLX0DJAQ3TV">Safety & essentials</a>
+          </div>
+        </div>
+    </div>
+    <div class="c" style="text-align:inline">
+    <div class="image-10">
+      <img src="images/top-wheeler.webp" width="100px">
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Top-Wheeler</button>
+      <div class="dropdown-content">
+        <a href="https://www.flipkart.com/two-wheelers-store?fm=neo%2Fmerchandising&iid=M_5aa67f31-d7a7-41f4-9519-6e73ef749eb0_1_372UD5BXDFYS_MC.SCJPZ04TFJJM&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Petrol%2BVehicles_SCJPZ04TFJJM&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=SCJPZ04TFJJM">Petrol Vechiles</a>
+        <a href="https://www.flipkart.com/electric-scooters-store?fm=neo%2Fmerchandising&iid=M_0831c69e-9db7-4437-a4d2-89bd185c3d94_1_372UD5BXDFYS_MC.9QSXFO403TP1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Electric%2BVehicles_9QSXFO403TP1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=9QSXFO403TP1">Electric Vechiles</a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slider-1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/realme.jpg" class="d-block w-100 mx-auto" style="max-width:300px">
+        </div>
+        <div class="carousel-item">
+          <img src=images/flight.webp" class="d-block w-100" style="max-height:600px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<h1 style="text-align:center">Top Offers</h1>
+<div class="container">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+s21&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=neo%2Fmerchandising&iid=4612d2dd-c4d7-466a-ad44-fe3f640d3837.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=hp&ppn=homepage&ssid=cf3fs1h7vk0000001687512266697&qH=795f43282a989ee8">
+      <img src="images/Samsung.webp" class="d-block w-100 mx-auto" alt="..." style="max-height:200px;max-width:300px">
+      </a>
+      <a href="https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+s21&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=neo%2Fmerchandising&iid=4612d2dd-c4d7-466a-ad44-fe3f640d3837.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=hp&ppn=homepage&ssid=cf3fs1h7vk0000001687512266697&qH=795f43282a989ee8">
+      <h6 style="text-align:center">SAMSUNG S21 FE</h6>
+      </a>
+      <h6 style="text-align:center">Rs 31,9999</h6>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.flipkart.com/motorola-g73-5g-midnight-blue-128-gb/p/itm0e1cfbbce3e09?pid=MOBGKHNBYHG9SBGG&lid=LSTMOBGKHNBYHG9SBGGTCLS42&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=b_1_1&otracker=hp_omu_Top%2BOffers_2_4.dealCard.OMU_B548KYLE8Q31_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Top%2BOffers_NA_dealCard_cc_2_NA_view-all_3&fm=organic&iid=b00270b3-e16a-4dc3-8597-c75490147ce6.MOBGKHNBYHG9SBGG.SEARCH&ppt=browse&ppn=browse&ssid=bo2ywmb89c0000001687513294276">
+      <img src="images/moto g73.webp" class="d-block w-100 mx-auto" style="max-height: 200px;max-width:300px;">
+    </a>
+      <h6 style="text-align:center">Moto G73</h6>
+      <h6 style="text-align:center">Rs 16,9999</h6>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.flipkart.com/anerideals-crystal-clear-water-bottle-fridge-home-office-gym-school-boy-unbreakable-1000-ml/p/itmeccb071ef40ae?pid=BOTGEVFK5JCVKAYG&lid=LSTBOTGEVFK5JCVKAYGQDXZW7&marketplace=FLIPKART&q=water+bottle+pack&store=upp%2F3t7&srno=s_1_13&otracker=search&otracker1=search&fm=Search&iid=d3c9ff7a-7f3f-412f-8a63-89bd2489b1c2.BOTGEVFK5JCVKAYG.SEARCH&ppt=sp&ppn=sp&ssid=2k0exzdxxc0000001687512466156&qH=8532a8e1418b4800">
+      <img src="images/water bottle.webpbottle.webp" class="d-block w-100 mx-auto" style="max-height: 200px;max-width:300px;">
+    </a>
+      <h6 style="text-align:center">Water Bottles</h6>
+      <h6 style="text-align:center">Rs 119</h6>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.flipkart.com/keel-mineral-ro-copper-audi-12-ltr-water-filter-l-uv-uf-tds-purifier/p/itmd4c6b946f0129?pid=WAPGEGBWZM8WGJPJ&lid=LSTWAPGEGBWZM8WGJPJDQSMDG&marketplace=FLIPKART&q=water+purifier&store=j9e%2Fabm%2Fi45&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&fm=search-autosuggest&iid=en_5sG0xpTsuAyWVRcRwak5FEOCy6awPJsL0EcjPs8Ahi%2BOMwUAl5KidaEXrVQmOSFaBs%2B5OwgeSuwFifXvJfA9zA%3D%3D&ppt=pp&ppn=pp&ssid=eena87egu80000001687513155472&qH=57f97975143685a0">
+      <img src="images/water purifier.webp" class="d-block w-100 mx-auto" style="max-height: 200px;max-width:300px;">
+     </a>
+      <h6 style="text-align:center">Water purifier</h6>
+      <h6 style="text-align:center">Rs 3499</h6>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.flipkart.com/tablets/pr?sid=tyy%2Chry&marketplace=FLIPKART&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DApple&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJBcHBsZSBpUGFkcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlRBQkc2Vk5DSFRSWkdOOU4iLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&fm=neo%2Fmerchandising&iid=M_d0e67bc5-cb9d-4fe7-9c94-e36402ea2e81_4.6ZUSYN698XTZ&ppt=hp&ppn=homepage&ssid=tcv799zsxs0000001687511883727&otracker=hp_omu_Top%2BOffers_1_4.dealCard.OMU_6ZUSYN698XTZ_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Top%2BOffers_NA_dealCard_cc_1_NA_view-all_3&cid=6ZUSYN698XTZ">
+      <img src="images/apple i-pads.webp" class="d-block w-100 mx-auto" style="max-height: 200px;max-width:300px;">
+    </a>
+      <h6 style="text-align:center">Apple i pads</h6>
+      <h6 style="text-align:center">Rs 28,990</h6>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<div class="container" style="display:flex;flex:1;max-width:100%;height:auto;justify-content:space-between">
+  <a href="https://www.flipkart.com/realme-c33-2023-aqua-blue-128-gb/p/itmd11d6ad894265?pid=MOBGMWBWK3V8UHAS&lid=LSTMOBGMWBWK3V8UHASZBM9PU&marketplace=FLIPKART&q=realme&store=search.flipkart.com&spotlightTagId=FkPickId_search.flipkart.com&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=0cdf4021-c2e3-43ac-a6b3-a96ea5a0f618.MOBGMWBWK3V8UHAS.SEARCH&ppt=sp&ppn=sp&ssid=9o6vk3agw00000001687513467009&qH=7cd3af2fb6db1e3f">
+  <img src="images/realme.jpeg" width="400px">
+</a>
+  <a href="https://www.flipkart.com/patlani-style-embroidered-bollywood-net-saree/p/itm6434b4d1d0d2f?pid=SARFSA6VJW8YBV9Y&lid=LSTSARFSA6VJW8YBV9YAEJJDU&marketplace=FLIPKART&q=saree+299&store=clo%2F8on%2Fzpd%2F9og&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_PsoUGUDLcvEQE1WrzUD%2B0LnxfGMApX8R3%2FnlqnJNAD7Xj5BqPT6LE4OEtUYlGXQno97bJHqQRpfDmy84xp%2Fv5w%3D%3D&ppt=sp&ppn=sp&ssid=ysj2zapq5s0000001687512575316&qH=1192b91a84ad73ed">
+  <img src="images/Saree.webp" width="400 px">
+  </a>
+  <a href="https://www.flipkart.com/search?q=jewellery+set&sid=mcr%2C96v%2Cyx2&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=RECENT&suggestionId=jewellery+set%7CJewellery+Sets&requestId=a713a549-6224-4691-8e3b-c84a79008975&as-searchtext=jewe">
+  <img src="images/jewellery.webp" width="400 px">
+</a>
+  </div>
+  <h1 style="text-align:center">Top Deals on Fashion</h1>
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.flipkart.com/stylestone-casual-3-4-sleeve-solid-women-blue-top/p/itmc3f4756d5c7cb?pid=TOPFUUS57JXTUXQH&lid=LSTTOPFUUS57JXTUXQHMFQCWL&marketplace=FLIPKART&q=top+jeans&store=clo%2Fash%2Fohw&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=6f5486eb-7359-44a7-a7b4-38a18d9100ae.TOPFUUS57JXTUXQH.SEARCH&ppt=sp&ppn=sp&ssid=lwxjzbazbk0000001687512715112&qH=5956ada9458d7a09">
+          <img src="images/Top-jeans.webp" class="d-block w-100 mx-auto" alt="..." style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">Top-jeans</h6>
+          <h6 style="text-align:center">Rs 699</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/patlani-style-embroidered-bollywood-net-saree/p/itm6434b4d1d0d2f?pid=SARFSA6VJW8YBV9Y&lid=LSTSARFSA6VJW8YBV9YAEJJDU&marketplace=FLIPKART&q=saree+299&store=clo%2F8on%2Fzpd%2F9og&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_PsoUGUDLcvEQE1WrzUD%2B0LnxfGMApX8R3%2FnlqnJNAD7Xj5BqPT6LE4OEtUYlGXQno97bJHqQRpfDmy84xp%2Fv5w%3D%3D&ppt=sp&ppn=sp&ssid=ysj2zapq5s0000001687512575316&qH=1192b91a84ad73ed">
+          <img src="images/Saree.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">Saree</h6>
+      <h6 style="text-align:center">Rs 299</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/puma-propel-19-v1-sneakers-men/p/itm3387b11ca0404?pid=SHOFUFGNX4DBDXBS&lid=LSTSHOFUFGNX4DBDXBSIOEGYT&marketplace=FLIPKART&q=puma&store=search.flipkart.com&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=1b1c13d6-a1bb-4b3b-b651-0abaff6d6de9.SHOFUFGNX4DBDXBS.SEARCH&ppt=sp&ppn=sp&ssid=z5oqahh1zk0000001687512816957&qH=d9f32436125b47e0">
+          <img src="images/puma.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">Puma</h6>
+      <h6 style="text-align:center">Rs 2,999</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/keel-mineral-ro-copper-audi-12-ltr-water-filter-l-uv-uf-tds-purifier/p/itmd4c6b946f0129?pid=WAPGEGBWZM8WGJPJ&lid=LSTWAPGEGBWZM8WGJPJDQSMDG&marketplace=FLIPKART&q=water+purifier&store=j9e%2Fabm%2Fi45&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&fm=search-autosuggest&iid=en_5sG0xpTsuAyWVRcRwak5FEOCy6awPJsL0EcjPs8Ahi%2BOMwUAl5KidaEXrVQmOSFaBs%2B5OwgeSuwFifXvJfA9zA%3D%3D&ppt=pp&ppn=pp&ssid=eena87egu80000001687513155472&qH=57f97975143685a0">
+          <img src="images/water purifier.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">Water-purifier</h6>
+      <h6 style="text-align:center">Rs 3499</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/tablets/pr?sid=tyy%2Chry&marketplace=FLIPKART&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DApple&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJBcHBsZSBpUGFkcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlRBQkc2Vk5DSFRSWkdOOU4iLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&fm=neo%2Fmerchandising&iid=M_d0e67bc5-cb9d-4fe7-9c94-e36402ea2e81_4.6ZUSYN698XTZ&ppt=hp&ppn=homepage&ssid=tcv799zsxs0000001687511883727&otracker=hp_omu_Top%2BOffers_1_4.dealCard.OMU_6ZUSYN698XTZ_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Top%2BOffers_NA_dealCard_cc_1_NA_view-all_3&cid=6ZUSYN698XTZ">
+          <img src="images/ applei-pads.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+          </a>
+          <h6 style="text-align:center">Apple-i-pads</h6>
+          <h6 style="text-align:center">Rs 28,990</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/fastrack-upgrades-2015-analog-watch-men/p/itmf3zhmcfgbsbur?pid=WATE878TQTWXHYGU&lid=LSTWATE878TQTWXHYGUSYOVSE&marketplace=FLIPKART&q=fastrack&store=search.flipkart.com&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=708a703e-11e8-4ccb-86fc-89e4a757d42c.WATE878TQTWXHYGU.SEARCH&ppt=sp&ppn=sp&ssid=s54ux2h15s0000001687512989321&qH=8adf721fc330327a">
+          <img src="images/fastrack.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">Fastrack</h6>
+          <h6 style="text-align:center">Rs 765</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/trending-company-women-bandhani-straight-kurta/p/itmc011539d34034?pid=KTAGGHSBHAMWXTMD&lid=LSTKTAGGHSBHAMWXTMDLJJPKX&marketplace=FLIPKART&q=kurtas+for+women&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=en_06RkCgJLaS7pmEpG0rZACB9AysmZ%2BGkCVBgtOW5ucxojzcZAYyH5CrWL8XF5vCXtCdfJ9Psx7FyA1vmhWJCfWw%3D%3D&ppt=sp&ppn=sp&ssid=j5u4cbyys00000001687513098870&qH=f7775ee28f12f8bc">
+          <img src="images/kurtas.webp" class="d-block w-100 mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align:center">kurtas</h6>
+          <h6 style="text-align:center">50% off</h6>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <div class="container" style="display:flex;flex:1;max-width:100%;height:auto;justify-content:space-between">
+      <a href="https://www.flipkart.com/fastrack-upgrades-2015-analog-watch-men/p/itmf3zhmcfgbsbur?pid=WATE878TQTWXHYGU&lid=LSTWATE878TQTWXHYGUSYOVSE&marketplace=FLIPKART&q=fastrack&store=search.flipkart.com&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=708a703e-11e8-4ccb-86fc-89e4a757d42c.WATE878TQTWXHYGU.SEARCH&ppt=sp&ppn=sp&ssid=s54ux2h15s0000001687512989321&qH=8adf721fc330327a">
+      <img src="images/fastrack.webp" width="400px">
+      </a>
+      <a href="https://www.flipkart.com/trending-company-women-bandhani-straight-kurta/p/itmc011539d34034?pid=KTAGGHSBHAMWXTMD&lid=LSTKTAGGHSBHAMWXTMDLJJPKX&marketplace=FLIPKART&q=kurtas+for+women&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=en_06RkCgJLaS7pmEpG0rZACB9AysmZ%2BGkCVBgtOW5ucxojzcZAYyH5CrWL8XF5vCXtCdfJ9Psx7FyA1vmhWJCfWw%3D%3D&ppt=sp&ppn=sp&ssid=j5u4cbyys00000001687513098870&qH=f7775ee28f12f8bc">
+      <img src="images/kurtas.webp" width="400 px">
+      </a>
+      <a href="https://www.flipkart.com/puma-propel-19-v1-sneakers-men/p/itm3387b11ca0404?pid=SHOFUFGNX4DBDXBS&lid=LSTSHOFUFGNX4DBDXBSIOEGYT&marketplace=FLIPKART&q=puma&store=search.flipkart.com&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=1b1c13d6-a1bb-4b3b-b651-0abaff6d6de9.SHOFUFGNX4DBDXBS.SEARCH&ppt=sp&ppn=sp&ssid=z5oqahh1zk0000001687512816957&qH=d9f32436125b47e0">
+      <img src="images/puma.webp" width="400 px">
+      </a>
+      </div>
+  <h1 style="text-align:center;">Best of Electronics</h1>
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.flipkart.com/search?q=monitor&sid=6bo%2Cg0i%2C9no&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&as-pos=1&as-type=RECENT&suggestionId=monitor%7CMonitors&requestId=57d86a7e-72e9-4ec8-bfe0-9d299c359337&as-searchtext=monit">
+          <img src="images/Monitor.webp" class="d-block w-100  mx-auto" alt="..." style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align: center;">Monitor</h6>
+          <h6 style="text-align: center;">From Rs 8,279</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/search?q=camera&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+          <img src="images/camera.webp" class="d-block w-100  mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align: center;">Camera</h6>
+          <h6 style="text-align: center;">Shop Now!</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/search?q=shavers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+          <img src="images/shaver.webp" class="d-block w-100  mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align: center;">Best of shavers</h6>
+          <h6 style="text-align: center;">From Rs1,649</h6>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flipkart.com/search?q=printer&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+          <img src="images/Printer.webp" class="d-block w-100  mx-auto" style="max-height:200px;max-width:300px">
+        </a>
+          <h6 style="text-align: center;">Printer</h6>
+          <h6 style="text-align: center;">From Rs2,336</h6>
+        </div>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        </div>
+
+
+<p>
+  <h6>Top Stories:Brand Directory</h6>
+  <h6>MOST SEARCHED FOR ON FLIPKART:</h6>FashionEOSS Sale | Trend Stop | Flipkart Axis Bank Super Elite Credit card |5G Mobile Phones |Primebook Laptops |Moto Edge 40 |Bounce Infinity E1 |Buy Laptop on EMI |Infinix Zero Book Ultra |OPPO Reno8 5G | OPPO Reno8 Pro 5G | Fresh Flower Bouquet | Electric Cycles | Badminton | Bouquet | Laptop Repair Services | AC Cleaning Services | Oneplus Monitors | Grievance Redressal | Mobile Repair Services | Sell Old Mobile Phones | Premium LaptopsElectronics | StorePhone cover | Infinix INBook Y1 | PlusOkaya Electric Vehiclesbgauss | electric scooter | OPPO Reno7 Pro 5G | iPhone 13 | ProiPhone 13 Pro MaxiPhone 13  | MiniGoogle Pixel 6a covers | Flipkart QuickAmpere Magnus | Flipkart Help CentreOnline |  Boat StoreCovers from Rs 99 | Flipkart Track Orders | Flipkart Manage Orders  |Flipkart Return Orders | Flipkart Gift Cards Store | Flipkart Axis Bank | Credit Card | Flipkart Pay Later|
+  <h6>MOBILES:</h6>iPhone 12 64GB |iPhone 12 Pro 512GB |iPhone 12 128GB | Vivo Y91i | Vivo Y11 | Vivo Y15 |Vivo Y50 | Vivo Y12 | Reno2 FOppo| A12Oppo | F15Oppo | A31Samsung | A71Samsung | A51Samsung | A31Realme | X2iPhone 11 | iPhone 11 ProMobile Cover | Mobile Offers|iphone x4G| MobileNokia| MobileSamsung|  MobileiphoneOppo | MobileVivo|  Mobile
+  <h6>CAMERA:</h6>GoPro Action Camera| Nikon Camera| Canon Camera| Sony Camera| Canon DSLR| Nikon DSLR
+  <h6>LAPTOPS:</h6>MacBook Pro M2| Premium Laptop| ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022)| Realme Book Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Branded Laptops | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Gaming Laptops | 2 in 1 Laptops | LaptopsDell | latest laptops 2022 | HP latest laptops 2022 | Infinix INBook Y1 PlusSAMSUNG Galaxy Book312th Gen Intel Core Laptops
+  <h6>TVS:</h6>Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs | LG TV | TV | Sony TV | Samsung TV | Android Television | Iffalcon Tv | Mi TV
+  <h6>LARGE APPLIANCES:</h6>TV & Appliances End of Season Sale |  Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater) / Travel KettlesInduction | CooktopsInverters / stabilizerIrons / Iron BoxMixer Grinder JuicerWet GrindersChimneysMicrowave OvensVacuum CleanersWater PurifierFanMarQ Customer Care
+  <h6>CLOTHING:</h6>Men Shirts | Kurta Pajama | Kurtas | Men T-Shirts | Jeans | Saree | Dresses | Kids Dresses | Designer Salwar Suits | Bra | Designer Kurtis | Track PantMen |  Kurtas | Gym Wear | Party Dresses | Palazzo | SuitsBoys | Clothing | Gloves | NightyMaxi Dresses | Anarkali | Gowns | CulottesSalwar Suits | Kurtis | Designer Sarees| Leggings | Shorts | Georgette Sarees | Ethnic Wear | Briefs & Trunks | Nike Watches | Ascot Tie | Corset Tops | TunicsLeather | PU Skirts | Corset tops camisoles | Women magenta earrings | No collar jackets | Green dress material | Black patiala kurta set | Men camel shoes casual | Black pathani | Tassel Sarees | Khaki dresses | Kids formal dresses | Mauve shirts | Women henleyuppada|  pattu sarees | Leopard dresses | Sleeveless shrugs| 
+  <h6>FOOTWEAR:</h6>ShoesAdidas ShoesReebok ShoesNike ShoesPuma ShoesBootsBata ShoesWoodland ShoesSkechers ShoesSneakersWomens BootsSports ShoesLoafersSandalsLotto Sports ShoesCasual ShoesWomens Skechers ShoesAsics Sports ShoesFormal ShoesSchool Shoes
+  <h6>GROCERIES:<h6>PhonePe | Grocery VoucherHand | WashSoap | Cashew Nuts | Sunflower Oil | Eggs | Toilet Cleaner | Harpic Toilet Cleaner | Dettol | Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta | Fortune Oil | Aashirvaad Atta | Tea
+  <h6>BEST SELLING ON FLIPKART:</h6>Fire-Boltt Ninja Calling Pro |  Bluetooth Calling |  Smartwatch | 1.69 inch HD Display |  Smartwatch | Best Gas Geyser | Kitchen Geyser | Nutri Blenders | Portable Air Cooler | Best Air Cooler | Bags Hitachi | Refrigerator |  3 DoorBooksToysCandles | Helmets | Wall ClocksBaby Food | Chocolates | Cycles | Calculators | Lipsticks | MaskVertiv |  UPSFastrack Watches | Wallets | Earrings | Gold Coins | Realme Pad |  MiniHandbags | conekt SW2 Smartwatch | Mivi DuoPods |  a350Speaker |  Cleaner
+  <h6>FURNITURE:</h6>FurnitureSofasBedsDining setsWardrobesMattressesTV UnitsTablesChairsShelvesBean BagsOffice ChairsComputer TableOffice TablesRed SofaWakefit BedsWhite SofaWakefit MattressGreen SofaBlack SofaBrown Sofa
+  <h6>BGMH:</h6>Whey Protein | Homeopathy | Cricket | Cycles | Footballs | Treadmills | Christmas Gifts | Fitness |  Accessories | Online GuitarBooks | Store | Musical Instrument | Store | Dabur |Chyawanprash | Baidyanath Chyawanprash | Energy Drinks | Toys | Milk | Drink |  Mixes | Rakhi | Chyawanprash | Indian Flag | Protein |  Supplements</p>
+
+  <h6>Flipkart: The One-stop Shopping Destination</h6>
+  E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+  
+  What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.
+  
+  <h6>Flipkart Plus</h6>
+  A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+  
+  What's more, you can even use the Flipkart supercoins for a number of exciting services, like:
+  An annual Zomato Gold membership
+  An annual Hotstar Premium membership
+  6 months Gaana plus subscription
+  Rupees 550 instant discount on flights on ixigo
+  Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+  
+ <h6>No Cost EMI</h6>
+  In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.
+  
+ <h6>EMI on Debit Cards</h6> 
+  Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+  
+  <h6>Mobile Exchange Offers</h6>
+  Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+  
+  <h6>What Can You Buy From Flipkart?</h6>
+  <h6>Mobile Phones</h6>
+  From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services.
+  
+  <h6>Electronic Devices and Accessories</h6>
+  When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.
+  
+  Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store.
+  
+  Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+  
+  How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.
+  
+  <h6>Large Appliances</h6>
+  Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.
+  
+  For certain product categories, Customers meeting the eligibility criteria will have the option to buy larger quantities. To know more on the eligibility criteria and terms and conditions, please reach out to Purchases.oni@flipkart.com.
+  
+  <h6>Small Home Appliances</h6>
+  Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.
+  
+  <h6>Lifestyle</h6>
+  Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.
+  
+  <h6>Home and Furniture</h6>
+  Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.
+  
+  You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.
+  
+  <h6>Baby and kids </h6>
+  Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.
+  
+  <h6>Books, Sports and Games</h6>
+  Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.
+  
+  <h6>Grocery/Supermart</h6>
+  Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.
+  </p>
+  <hr>
+  <!-- <section class="background-color:rgb(8, 21, "> -->
+  <div class="container" style="display:flex;background-color:rgb(8, 21, 63);">
+   
+    <ul>
+    <h2 style="color:rgba(128, 128, 128, 0.527)">About</h2>
+    <div class="ul1" style="color:white">
+      <a href="https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks">
+    <li style="color:white">Contact us</li>
+  </a>
+  <a href="https://corporate.flipkart.net/corporate-home">
+    <li style="color:white">About us</li>
+  </a>
+  <a href="https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks#!/">
+    <li style="color:white">Careers</li>
+  </a>
+  <a href="https://stories.flipkart.com/?otracker=undefined_footer_navlinks">
+    <li style="color:white">Flipkart Stories</li>
+    </a>
+    <a href="https://stories.flipkart.com/category/top-stories/news/">
+    <li style="color:white">Press</li>
+    </a>
+    <a href="https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks">
+    <li style="color:white">Flipkart Wholesale</li>
+    </a>
+    <a href="https://www.flipkart.com/corporate-information">
+    <li style="color:white">Corporate Information </li>
+    </a>
+  </div>
+   </ul>
+   <ul>
+    <h2 style="color:rgba(128, 128, 128, 0.527)">Help</h2>
+    <div class="ul2" style="color:white">
+      <a href="https://www.flipkart.com/pages/payments">
+    <li  style="color:white">Payments</li>
+  </a>
+  <a href="https://www.flipkart.com/pages/shipping">
+    <li  style="color:white">Shipping</li>
+  </a>
+    <a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG">
+    <li  style="color:white">Cancellation & returns</li>
+  </a>
+    <a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG">
+    <li  style="color:white">FAQ</li>
+  </a>
+    <a href="https://seller.flipkart.com/?referral_url=%2Ffiv%3Fotracker%3Dundefined_footer_navlinks">
+    <li  style="color:white">Report Infringement</li>
+
+  </a>
+   </ul>
+<ul>
+    <h2 style="color:rgba(128, 128, 128, 0.527)">Consumer Policy</h2>
+    <div class="ul3" style="color:white">
+      <a href="https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Return Policy</li>
+  </a>
+  <a href="https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Terms of use</li>
+  </a>
+    <a href="https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Security</li>
+  </a>
+    <a href="https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Privacy</li>
+  </a>
+    <a href="https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Sitemap</li>
+  </a>
+    <a href="https://www.flipkart.com/pages/grievance-redressal-mechanism?otracker=undefined_footer_navlinks">
+    <li  style="color:white">Grievance Redressal</li>
+  </a>
+    <a href="https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks">
+    <li  style="color:white">EPR Compliance</li>
+  </a>
+   </ul>
+   <ul>
+    <h2 style="color:rgba(128, 128, 128, 0.527)">Social</h2>
+    <div class="ul4" style="color:white">
+      <a href="https://www.facebook.com/flipkart">
+    <li style="color:white">Facebook</li>
+  </a>
+  <a href="https://twitter.com/flipkart">
+    <li style="color:white">Twitter</li>
+  </a>
+  <a href="https://www.youtube.com/flipkart">
+    <li style="color:white">YouTube</li>
+</a>
+  </div>
+   </ul>
+  
+   
+  
+   
+   <div class="MR" style="margin-left:30px;display:flex">
+   <div class="mail" style="display:inline">
+    <h2 style="color:rgba(128, 128, 128, 0.527)">Mail Us</h2>
+   <p  class="ul4" style="color:white"> Flipkart Internet Private Limited,
+
+Buildings Alyssa, Begonia &
+
+Clove Embassy Tech Village,
+
+Outer Ring Road, Devarabeesanahalli Village,
+
+Bengaluru, 560103,
+
+Karnataka, India
+   </p>
+   </div>
+   <div class="office" style="display:inline">
+   <h2 style="color:rgba(128, 128, 128, 0.527)">Registered office address</h2>
+   <p  class="ul4" style="color:white"> Flipkart Internet Private Limited,
+
+    Buildings Alyssa, Begonia &
+    
+    Clove Embassy Tech Village,
+    
+    Outer Ring Road, Devarabeesanahalli Village,
+    
+    Bengaluru, 560103,
+    
+    Karnataka, India
+    
+    CIN : U51109KA2012PTC066107
+    
+    Telephone: 044-45614700
+   </p>
+  </div>
+</div>
+<!-- </section> -->
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
