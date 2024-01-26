@@ -1,4 +1,4 @@
 # Flipkart-UI clone
 By-Pakhi 
 <br>
-Singhal
+Singhal(Parshvi)
