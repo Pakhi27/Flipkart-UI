@@ -1,3 +1,4 @@
 # Flipkart-UI clone
+By-Pakhi 
 <br>
-By-Pakhi Singhal
+Singhal
